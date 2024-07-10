@@ -23,6 +23,7 @@ def train():
     # build and train model
     trained_model, trained_history = train_model.build_model(train_dataset, validation_dataset)
 
+    # plot training history
     # history_graph.display_training_accuracy_history(trained_history)
     # history_graph.display_training_loss_history(trained_history)
 
